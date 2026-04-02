@@ -1,0 +1,49 @@
+{
+  "name": "@garebear99/claude-code-source-explorer-mcp",
+  "version": "1.1.1-gd1",
+  "mcpName": "io.github.garebear99/claude-code-source-explorer-mcp",
+  "description": "Gary Doman MCP server for exploring the Claude Code source snapshot with STDIO, HTTP, and SSE transports.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GareBear99/claude-code-source-archive.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-code-explorer-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:http": "node dist/http.js",
+    "dev": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "author": "Gary Doman (GareBear99)",
+  "homepage": "https://github.com/GareBear99/claude-code-source-archive",
+  "bugs": {
+    "url": "https://github.com/GareBear99/claude-code-source-archive/issues"
+  },
+  "keywords": [
+    "gary-doman",
+    "garebear99",
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "source-explorer",
+    "typescript",
+    "developer-tools",
+    "stdio",
+    "sse",
+    "http"
+  ]
+}

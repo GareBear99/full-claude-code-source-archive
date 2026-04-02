@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.garebear99/claude-code-source-explorer-mcp",
+  "title": "Gary Doman Claude Code Source Explorer MCP",
+  "description": "Public-facing MCP explorer for Gary Doman's Claude Code source archive, with code search, command browsing, and architecture discovery.",
+  "repository": {
+    "url": "https://github.com/GareBear99/claude-code-source-archive",
+    "source": "github",
+    "subfolder": "mcp-server"
+  },
+  "version": "1.1.1-gd1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@garebear99/claude-code-source-explorer-mcp",
+      "version": "1.1.1-gd1",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeHint": "node"
+    }
+  ]
+}
